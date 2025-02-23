@@ -27,7 +27,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const port = process.env.PORT || 8080 || 3000;
+const port = process.env.PORT || 8080 ;
 const jsonParser = bodyParser.json();
 async function run() {
   try {

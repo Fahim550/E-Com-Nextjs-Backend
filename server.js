@@ -6,7 +6,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 
-const uri = process.env.URI;
+const uri = process.env.URI || 8080 || 3000;
 
 // Check if MongoDB connection string is defined
 if (!uri) {
